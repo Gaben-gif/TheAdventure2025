@@ -40,7 +40,7 @@ public unsafe class GameRenderer
         _camera.LookAt(x, y);
     }
 
-    public int LoadTexture(string fileName, out TextureData textureInfo)
+    ublic int LoadTexture(string fileName, out TextureData textureInfo)
     {
         using (var fStream = new FileStream(fileName, FileMode.Open))
         {
